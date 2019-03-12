@@ -11,10 +11,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        int i = 1;
-        while (true) {
-            System.out.println(new App().getMessage() + "" + i++);
-        }
+        System.out.println(new App().getMessage());
     }
 
     private final String getMessage() {

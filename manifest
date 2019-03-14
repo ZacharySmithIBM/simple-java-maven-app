@@ -1,8 +1,0 @@
----
-applications:
-- instances: 1
-  timeout: 60
-  name: Maven-App
-  buildpack: java_buildpack
-  path: ./target/my-app-1.0-SNAPSHOT.war
-  memory: 128M

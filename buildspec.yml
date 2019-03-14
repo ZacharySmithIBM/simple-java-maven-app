@@ -1,11 +1,4 @@
 version: 0.2
 
-run-as: Linux-user-name
-
 artifacts:
-  files:
-    - location
-    - location
   name: simple-java-maven-app
-  discard-paths: yes
-  base-directory: location
